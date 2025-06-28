@@ -122,13 +122,11 @@ while movimiento == True:
 
             for producto in productos:
                 if producto[0] == find:
+                    print("🔍 Buscando ...")
                     print("PRODUCTO ENCONTRADO")
                     print(f"Nombre del producto: {producto[0].title()} Categoría: {producto[1].title()} Precio: ${producto[2]}")
                     continue
-
-                else:
-                    print("🔍 Buscando ...")
-                    continue       
+       
             
                   
   #eliminar producto                
